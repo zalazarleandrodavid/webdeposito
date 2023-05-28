@@ -7,7 +7,12 @@ function App() {
   return (
     <div className="App">
       <Boton2 />
+      
       <Boton1 />
+      
+      
+      
+
     </div>
   );
 }
