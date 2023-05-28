@@ -1,11 +1,9 @@
 import React from 'react';
 
-const Boton = ({ Movistar, onClick }) => {
+const Boton1 = ({ onClick }) => {
   return (
-    <button onClick={onClick}>{Movistar}</button>
+    <button onClick={() => onClick('Movistar')}>"Movistar"</button>
   );
 };
+export default Boton1;
 
-
-
-export default Boton;

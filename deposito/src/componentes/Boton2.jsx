@@ -1,11 +1,8 @@
 import React from 'react';
 
-const Boton2 = ({ Telefonica, onClick }) => {
+const Boton2 = ({ onClick }) => {
   return (
-    <button onClick={onClick}>{Telefonica}</button>
+    <button onClick={() => onClick('Telefonica')}>"Telefonica"</button>
   );
 };
-
-
-
 export default Boton2;
