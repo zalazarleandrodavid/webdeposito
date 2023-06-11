@@ -21,11 +21,17 @@ const Login = () => {
     }
   };
 
-  if (loggedIn) {
+  const handleLogout = () => {
+    setLoggedIn(false);
+    setEmail('');
+  };
+
+  if (loggedIn) { //cierre de sesion
     return (
       <div>
-        <Boton1 />
-        <Boton2 />
+        <button onClick={handleLogout}>Logout</button>
+        <Boton1 handleLogout={handleLogout} />
+        <Boton2 handleLogout={handleLogout} />
       </div>
     );
   }

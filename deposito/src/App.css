@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.boton1 {
+  background-color: blue;
+  color: white;
+  /* Agrega más estilos según sea necesario */
+}
+
+.boton2 {
+  background-color: blue;
+  color: white;
+  /* Agrega más estilos según sea necesario */
+}
+.scanner {
+  /* Estilos para el contenedor del escáner */
+}

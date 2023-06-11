@@ -46,8 +46,8 @@ const Boton2 = ({ onBarcodeScan }) => {
 
   return (
     <div>
-      <button onClick={openBarcodeScanner}>Telefonica</button>
-      <div ref={scannerRef} style={{ width: '100%' }}></div>
+      <button className="boton1" onClick={openBarcodeScanner}>Telefonica</button>
+      <div ref={scannerRef} className="scanner" style={{ width: '100%' }}></div>
       {scannedBarcode && <p>Código de barras escaneado: {scannedBarcode}</p>}
     </div>
   );
